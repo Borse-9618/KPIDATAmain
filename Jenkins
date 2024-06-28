@@ -4,11 +4,11 @@ stages {
 stage('Build') {
 steps{
 script{
-sh rm -r 'KPIData1-main'
+sh rm -r 'KPIDATAmain'
 sh 'git clone "https://github.com/Borse-9618/KPIDATAmain.git"
-sh 'cd KPIData1-main'
+sh 'cd KPIDATAmain'
 echo 'build'
-sh 'g++ hello_world.cpp'
+sh 'g++ test.cpp'
 }
 }
 }
