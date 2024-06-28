@@ -5,7 +5,7 @@ stage('Build') {
 steps{
 script{
 sh rm -r 'KPIDATAmain'
-sh 'git clone "https://github.com/Borse-9618/KPIDATAmain.git"
+sh 'git clone "https://github.com/Borse-9618/KPIDATAmain.git"'
 sh 'cd KPIDATAmain'
 echo 'build'
 sh 'g++ test.cpp'
