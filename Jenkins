@@ -6,7 +6,7 @@ steps{
 script{
 sh 'rm -r KPIData1'
 sh 'git clone "https://github.com/Gururaj-14/KPIData1.git"'
-//sh ' cd KPIData1'
+//sh '+ rm -r KPIData1'
 echo 'build'
 sh 'g++ hello_world.cpp'
 }
